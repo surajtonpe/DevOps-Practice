@@ -578,9 +578,9 @@ SSD: gp2, gp3, io1, io2
 </b></details>
 
 <details>
-<summary>True or False? In EBS gp2 volume type, IP will increase if the disk size increases</summary><br><b>
+<summary>True or False? In EBS gp2 volume type, IoPs will increase if the disk size increases</summary><br><b>
 
-True.
+False. IOPS do not automatically increase in proportion to disk size for EBS gp2 volumes.
 </b></details>
 
 #### Instance Store
